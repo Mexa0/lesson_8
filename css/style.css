@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 350px;
+  height: 230px;
+  font-size: 40px;
+  font-weight: 700px;
+  text-align: center;
+  align-content: center;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-container {
+  padding: 120px;
+  position: relative;
+}
+.wrapper {
+  width: 300px;
+  background-color: rgb(138, 126, 75);
+  padding: 16px;
+  position: relative;
+}
+.sale-badge {
+  background-color: rgb(90, 102, 19);
+  border-radius: 12px;
+  color: white;
+  padding: 8px 12px;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+}
